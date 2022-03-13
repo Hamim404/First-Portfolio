@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size:50px;
+}
+.dream{
+    font-size:40px;
+}
+p{
+    color:dimgray;
+}
+a{
+    text-decoration: none;
+    background:linear-gradient(to right,lightsalmon,tomato);
+    padding:10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    color:white;
+}
+.section{
+    height: 600px;
+}
+.bg1{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+.bg2{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg3{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;background-position: left;
+}
+.first{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.first img{
+    width:100%;
+}
+span{
+    color:orange;
+}
+.f-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    height: 70%;
+    box-shadow:10px 10px 40px gray;
+}
+.t-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    height: 70%;
+    box-shadow:10px 10px 40px gray;
+}
+.footer{
+    text-align:center;
+}
